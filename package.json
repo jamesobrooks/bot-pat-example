@@ -1,0 +1,22 @@
+{
+  "name": "bot-pat-example",
+  "version": "1.0.0",
+  "description": "Example of using a PAT for managing bot access in GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesobrooks/bot-pat-example.git"
+  },
+  "author": "James Brooks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesobrooks/bot-pat-example/issues"
+  },
+  "homepage": "https://github.com/jamesobrooks/bot-pat-example#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
