@@ -13,7 +13,5 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20.12.2
-      - name: Build Server
-        run: |
-          npm ci
-          npm run build
+      - name: Install Packages
+        run: npm ci

@@ -4,6 +4,7 @@
   "description": "Example of using a PAT for managing bot access in GitHub",
   "main": "index.js",
   "scripts": {
+    "start": "node server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
