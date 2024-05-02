@@ -29,7 +29,7 @@ jobs:
           git switch -c dependency-updates-auto
           npm ci
           npm update --save
-          echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> packages-updated.txt
+          echo "$(date +'%Y-%m-%dT%H:%M:%S')" >> packages-updated.txt
           git add .
           git commit -m "Update npm packages"
           git push -u origin dependency-updates-auto
